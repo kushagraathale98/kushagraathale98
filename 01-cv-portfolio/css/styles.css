@@ -31,7 +31,9 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
-html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
+html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; 
+background-color: #fff;
+}
 
 
 body{ font-size: 16px; font-family: 'Poppins', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
@@ -44,7 +46,7 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{ font-family: 'Poppins', cursive; }
 
-p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #777; }
+p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #994d00; }
 
 h1{ font-size: 4em; line-height: 1; }
 h2{ font-size: 2.2em; line-height: 1.1; }
@@ -82,7 +84,9 @@ b.max-bold{ font-weight: 700; }
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
-.section{ padding: 100px 0 50px; }
+.section{ padding: 100px 0 50px;
+color: #fff;
+ }
 
 .section .heading{ margin-bottom: 60px; }
 
@@ -98,9 +102,9 @@ b.max-bold{ font-weight: 700; }
 
 .font-yellow{ color: #FFA600; }
 
-.font-semi-white{ color: #ddd; }
+.font-semi-white{ color: #f2690d; }
 
-.font-lite-black{ color: #999; }
+.font-lite-black{ color: #FFA600; }
 
 
 /* ---------------------------------
@@ -129,15 +133,15 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
+	z-index: 1;background-image: url(../../images/dark.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
 	
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	height: 150px; z-index: -1; background: #fff; }
+	height: 150px; z-index: -1;  }
 
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
+.intro{ padding: 0 20px; margin-top: 100px; text-align: center; color: #994d00 }
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
 	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
@@ -159,7 +163,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 5. PORFOLIO SECTION
 --------------------------------- */
 
-.portfolio-section{ padding-bottom: 0; }
+.portfolio-section{ padding-bottom: 0; background-color: #777;}
 
 .portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
 
@@ -198,7 +202,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #28023D; color: #fff; }
+.experience-section{ background: #666; color: #fff; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
@@ -227,7 +231,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1; 
-	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
+	background-color: #666; color: #fff; }
 
 .counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -258,5 +262,4 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
 
